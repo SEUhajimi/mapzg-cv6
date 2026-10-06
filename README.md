@@ -7,11 +7,3 @@
 | `03_文档/` | `地图设定说明.md`、`更新记录.md` | 设定总览、数据、已知局限、未验证清单；每次改动的记录 |
 | `04_源码仓库/` | `mapzg-cv6.bundle`、`mapzg-cv6-repo.zip` | bundle 含完整提交记录（`git clone mapzg-cv6.bundle` 即可）；zip 只有文件 |
 
-推送到 GitHub：
-
-```
-git clone mapzg-cv6.bundle mapzg-cv6
-cd mapzg-cv6
-git remote set-url origin https://github.com/SEUhajimi/mapzg-cv6.git
-git push -u origin main
-```
